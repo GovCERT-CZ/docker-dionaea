@@ -19,7 +19,7 @@ Build docker image with custom build args
 - smb_SN: ServerName of smb service (default: HOMEUSER-3AF6FE)
 - mssql_TT: VersionToken TokenType of mssql service (default: 0x00)
 
-
+    
     $ git clone https://github.com/GovCERT-CZ/docker-dionaea
     $ cd docker-dionaea
     $ docker build [--build-arg cert_C=<value>] [--build-arg cert_CN=<value>] [--build-arg cert_O=<value>] [--build-arg cert_OU=<value>] [--build-arg ftp_MSG=<value>] [--build-arg smb_ODN=<value>] [--build-arg smb_SN=<value>] [--build-arg mssql_TT=<value>] -t <repository>/<name> .

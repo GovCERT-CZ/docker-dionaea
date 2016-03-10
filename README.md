@@ -9,7 +9,7 @@ Build docker image
     $ docker build -t <repository>/<name> .
     
 
-Build docker image with custom build args
+Build of docker image supports several custom build arguments for specifying certain parameters:
 - cert_C: C field of generated certificate (default: DE)
 - cert_CN: CN field of generated certificate (default: Nepenthes Development Team)
 - cert_O: O field of generated certificate (default: dionaea.carnivore.it)
@@ -19,6 +19,7 @@ Build docker image with custom build args
 - smb_SN: ServerName of smb service (default: HOMEUSER-3AF6FE)
 - mssql_TT: VersionToken TokenType of mssql service (default: 0x00)
 
+Build docker image with custom build args
     
     $ git clone https://github.com/GovCERT-CZ/docker-dionaea
     $ cd docker-dionaea
